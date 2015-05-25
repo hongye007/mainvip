@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+     >
+
+     <RelativeLayout
+        android:id="@+id/more_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/main_titlebar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="15dp"
+            android:text="更 多"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/more_title"
+        android:id="@+id/more_user_chose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/more_round_backshape"
+        android:orientation="horizontal" >
+
+        <com.zwy.tools.XCRoundImageView
+            android:id="@+id/more_user_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/userimage" />
+
+  
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/more_user_image"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="周文业"
+                android:id="@+id/more_user_name"
+                android:textColor="#000" />
+            
+            <ImageView 
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/more_user_ecode"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/more_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/more_quit"
+        android:text="残 忍 退 出 K K" />
+
+</RelativeLayout>

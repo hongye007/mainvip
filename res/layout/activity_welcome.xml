@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.zwy.demo1.WelcomeActivity" >
+    
+    <!--     欢迎界面         -->
+
+    <ImageView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:background="@drawable/welcome1"/>
+
+</RelativeLayout>

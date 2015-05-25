@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/main_titlebar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="15dp"
+            android:text="搜 索"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#bfbfbf" >
+
+        <TextView
+            android:id="@+id/search_location_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.65"
+            android:text=""
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/search_location_refrash"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/refrash" />
+    </LinearLayout>
+
+    <com.zwy.tools.CornerListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/app_list_corner_round"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/vip_divid"
+        android:dividerHeight="1dp" >
+    </com.zwy.tools.CornerListView>
+
+</LinearLayout>

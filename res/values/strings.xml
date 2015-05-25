@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">卡咖包</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">欢迎使用</string>
+    <string name="setup">注 册</string>
+    <string name="main_vip">VIP卡包</string>
+    <string name="main_search">发  现</string>
+    <string name="main_message">消  息</string>
+    <string name="main_at">推  荐</string>
+    <string name="main_more">更   多</string>
+
+    <string-array name="vip_array_shop">
+        <item>奇趣汉堡</item>
+        <item>微造型理发</item>
+        <item>别克汽车</item>
+    </string-array>
+    <string-array name="vip_array_no">
+        <item>距离0.1Km</item>
+        <item>距离0.3km</item>
+        <item>距离1.2Km</item>
+    </string-array>
+
+</resources>
